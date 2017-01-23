@@ -137,6 +137,7 @@ background-size: 42px;
 	padding: 20px;
 	font-size: 15px;
 	font-family: 'Varela Round', sans-serif;
+	
 
 
 }
@@ -166,5 +167,9 @@ font-size: 15px;
 	border-radius: 10px;
 }
 
-
-
+#lokacija {
+	background-color: #f1f1f1;
+	border-radius: 10px;
+	display: inline-block;
+	
+}
