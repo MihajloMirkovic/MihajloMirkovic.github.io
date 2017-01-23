@@ -4,23 +4,7 @@
 <head>
 	<title>Home</title>
 <script>
-var slideIndex = 1;
-showDivs(slideIndex);
 
-function plusDivs(n) {
-    showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    if (n > x.length) {slideIndex = 1} 
-    if (n < 1) {slideIndex = x.length} ;
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "initial-scale"; 
-    }
-    x[slideIndex-1].style.display = "block"; 
-}
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
@@ -54,20 +38,6 @@ function showDivs(n) {
 <li><a href="#">Lokacija</a></li>
 <li><a href="#">Kontakt</a></li>
 </ul>
-</div>
- 
-<div id="jumbotron-wrapper">
-	<img class="mySlides" src="slikaa.jpg" src="zeleno.jpg">
-	
-
-
-	<div id="jumbotron-arrow-wrapper">
-
-
-<a href="#"><div class="jumbotron-arrow" id="left-jumbotron-arrow" onclick="plusDivs(-1)"&#10094;"" ><span class="ion-chevron-left"></span></div></a>
-<a href="#"><div class="jumbotron-arrow" id="right-jumbotron-arrow"><span class="ion-chevron-right"onclick="plusDivs(1)"&#10095;"" ></span></div></a>
-
-</div>
 </div>
 
 </body>
