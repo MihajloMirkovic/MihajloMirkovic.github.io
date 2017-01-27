@@ -83,7 +83,7 @@ clear: both;
 
 .logoo:hover {
 	background-color: #f1f1f1; 
-	width: auto;
+	width: 105px;
 }
 
 /* NAV-SEARCH CSS */
@@ -94,9 +94,7 @@ clear: both;
 	height: 100%;
 	 vertical-align: middle;
 	 padding-bottom: 40px;
-	 
-
-	
+	 	
 }
 #nav-search-wrapper form input {
 	 padding: 18px 10px 18px 52px;
@@ -130,6 +128,10 @@ background-size: 42px;
   font-size: 14px;
 }
 
+.top-nav {
+	width: 100%;
+}
+
 .top-nav ul {
 
 	float: right;
@@ -139,6 +141,7 @@ background-size: 42px;
 	font-family: 'Varela Round', sans-serif;
 
 
+
 }
 
 .top-nav ul li {
@@ -146,6 +149,7 @@ background-size: 42px;
 	margin: 25px;
 	font-family: 'Varela Round', sans-serif;
 	font-size: 15px;
+
 }
 
 .top-nav ul li a:link {
@@ -153,18 +157,39 @@ background-size: 42px;
 	font-size: 14px;
 	font-family: 'Varela Round', sans-serif;
 	font-size: 15px;
+	padding: 20px;
 }
 .top-nav ul li a:visited {
 	color: #484848;
 font-family: 'Varela Round', sans-serif;
 font-size: 15px;
+
 }
 
 .top-nav ul li a:hover {
 	background-color: #f1f1f1;
-	padding: 20px;
 	border-radius: 10px;
+	
+	
 }
 
+img {
+	height: 750px;
+	width: 100%;
+	
 
+}
+img:hover {
+	opacity: 0.8;
+	box-shadow: 5px 5px 5px #999;
+	
+
+}
+
+#slikaa ul li {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 15px;
+	display: inline-block;
+
+}	
 

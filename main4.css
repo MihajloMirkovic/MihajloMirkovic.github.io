@@ -83,7 +83,7 @@ clear: both;
 
 .logoo:hover {
 	background-color: #f1f1f1; 
-	width: auto;
+	width: 105px;
 }
 
 /* NAV-SEARCH CSS */
@@ -129,7 +129,6 @@ background-size: 42px;
    color: #666;
   font-size: 14px;
 }
-
 .top-nav ul {
 
 	float: right;
@@ -141,12 +140,12 @@ background-size: 42px;
 
 
 }
-
 .top-nav ul li {
 	display: inline-block;
 	margin: 25px;
 	font-family: 'Varela Round', sans-serif;
 	font-size: 15px;
+
 }
 
 .top-nav ul li a:link {
@@ -154,18 +153,22 @@ background-size: 42px;
 	font-size: 14px;
 	font-family: 'Varela Round', sans-serif;
 	font-size: 15px;
+	padding: 20px;
 }
 .top-nav ul li a:visited {
 	color: #484848;
 font-family: 'Varela Round', sans-serif;
 font-size: 15px;
+
 }
 
 .top-nav ul li a:hover {
 	background-color: #f1f1f1;
-	padding: 20px;
 	border-radius: 10px;
+	
+	
 }
+
 
 #lokacija {
 	background-color: #f1f1f1;
@@ -173,3 +176,4 @@ font-size: 15px;
 	display: inline-block;
 	
 }
+
