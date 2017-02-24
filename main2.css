@@ -130,6 +130,10 @@ background-size: 42px;
   font-size: 14px;
 }
 
+.top-nav {
+	width: 100%;
+}
+
 .top-nav ul {
 
 	float: right;
@@ -187,4 +191,24 @@ header {
 
 	padding-left: 400px;
 	text-shadow: 2px 2px #bdc3c7;
+}
+
+.social img {
+	height: 50px;
+	width: 50px;
+	margin: 30px;
+	display: inline;
+	position: relative;
+	/*padding-left: 1540px;*/
+	z-index: 1;
+	list-style-type: none;
+
+	
+
+	
+}
+
+.social img:hover {
+	opacity: 0.8;
+
 }

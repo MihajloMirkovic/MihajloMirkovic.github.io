@@ -2,9 +2,10 @@ body {
  margin: 0;
  padding: 0;
 /*line-height: 1.43;*/
-color: #484848
+color: #484848;
 font-family: 'Varela Round', sans-serif;
 overflow-x; hidden;
+background-color: #303030; 
 
 }
 
@@ -53,7 +54,6 @@ clear: both;
  position: relative;
  width: 1665px;
  height: 104px;
- border-bottom: 1px solid #ccc;
  box-shadow: 3px 3px 3px #999; 
      -moz-box-shadow: 3px 3px 3px #999;
      -webkit-box-shadow: 3px 3px 3px #999;
@@ -73,7 +73,7 @@ clear: both;
  width: 105px;
  height: 80px;
  padding: 12px 18px;
- border-right: 1px solid #ccc;
+ 
  box-shadow: 1px 1px 1px #999; 
      -moz-box-shadow: 1px 1px 1px #999;
      -webkit-box-shadow: 1px 1px 1px #999;
@@ -86,7 +86,7 @@ clear: both;
 	width: 105px;
 }
 
-/* NAV-SEARCH CSS */
+/* NAV-SEARCH CSS*/ 
 
 #nav-search-wrapper {
 	display: inline-block;
@@ -94,6 +94,7 @@ clear: both;
 	height: 100%;
 	 vertical-align: middle;
 	 padding-bottom: 40px;
+
 	 	
 }
 #nav-search-wrapper form input {
@@ -101,7 +102,7 @@ clear: both;
   width: 100%;
 border: none;
 outline: none;
-color: #666;
+color: #fff;
 font-size: 14px;
 background-image: url('svggg.svg'); 
 background-repeat: no-repeat;
@@ -130,6 +131,8 @@ background-size: 42px;
 
 .top-nav {
 	width: 100%;
+	background-color: white;
+	
 }
 
 .top-nav ul {
@@ -173,23 +176,60 @@ font-size: 15px;
 	
 }
 
-img {
-	height: 750px;
+.slikaa img {
+	height: 780px;
 	width: 100%;
+	z-index: 500;
 	
 
 }
-img:hover {
+.slikaa img:hover {
 	opacity: 0.8;
 	box-shadow: 5px 5px 5px #999;
 	
 
 }
 
-#slikaa ul li {
+.social img {
+	height: 50px;
+	width: 50px;
+	margin: 25px;
+	display: inline;
+	
+	/*padding-left: 1540px;*/
+	
+	
+
+	
+
+	
+}
+
+.social img ul {
+	
+	margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+
+}
+
+
+footer {
+    margin-top: ;
+    padding-top: 30px;
+    background-color: #303030;
+    color: #e2e2e2;
+}
+
+.txt {
+	
 	font-family: 'Varela Round', sans-serif;
-	font-size: 15px;
-	display: inline-block;
+	color: white;
+}
 
-}	
-
+.pp {
+	font-size: 40px;
+	font-family: 'Varela Round', sans-serif;
+	text-align: justify;
+}
